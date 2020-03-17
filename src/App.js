@@ -1,24 +1,26 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import ColorBar from './ColorBar';
+import JavascriptSec from './sections/JavascriptSec';
+import CssSec from './sections/CssSec';
+import ColorsSec from './sections/ColorsSec';
+import BackgroundsSec from './sections/BackgroundSec';
+import ImagesSec from './sections/ImagesSec';
+import HTMLSec from './sections/HTMLSec';
+import InspirationSec from './sections/InspirationSec';
+import AppFooter from './AppFooter';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <ColorBar />
+      {/* <JavascriptSec /> */}
+      {/* <ColorsSec /> */}
+      {/* <CssSec /> */}
+      {/* <BackgroundsSec /> */}
+      {/* <ImagesSec /> */}
+      {/* <HTMLSec /> */}
+      {/* <InspirationSec /> */}
+      <AppFooter />
     </div>
   );
 }
