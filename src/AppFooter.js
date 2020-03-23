@@ -9,7 +9,7 @@ function AppFooter(){
                 </p>
                 <p className="is-size-6">If you notice any mistakes, please contact me on my main page <a href="https://thomaswicks.com/#contactMe" target="_blank" rel="noopener noreferrer" class="is-size-6 hvr-sweep-to-right text-highlight">here</a></p>
                 <p className="is-size-6">If you would like to support this website, you can <a href="https://www.buymeacoffee.com/thomaswicks" target="_blank" rel="noopener noreferrer" class="is-size-6 hvr-sweep-to-right text-highlight">buy me a coffee</a> ☕ if you'd like. </p>
-                <p className="is-size-6">Site last updated on <strong>Sep 23rd, 2019</strong></p>
+                <p className="is-size-6">Site last updated on <strong>March 23rd, 2020</strong></p>
             </div>
         </footer>
     )
