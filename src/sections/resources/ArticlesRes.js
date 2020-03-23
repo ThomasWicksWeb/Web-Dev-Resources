@@ -49,9 +49,12 @@ const articlesResGeneral = [{
     "img": "./images/articles-general-1-min.jpg",
     "alt": "'Web Performance 101'"
 }]
+
 const articlesResJobs = [{
     "name": "'7 absolute truths I unlearned as junior developer'",
     "href": "https://monicalent.com/blog/2019/06/03/absolute-truths-unlearned-as-junior-developer/",
     "img": "./images/articles-job-1-min.jpg",
     "alt": "'7 absolute truths I unlearned as junior developer'"
 }]
+
+export { articlesResJS, articlesResHTML, articlesResDesign, articlesResGeneral, articlesResJobs };

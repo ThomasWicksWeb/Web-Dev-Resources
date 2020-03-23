@@ -17,8 +17,8 @@ const ColorsList = ColorsRes.map(item => {
 function ColorsSec(){
     return(
         <div>
-            <h1 class="is-size-2 has-text-centered">Colors</h1>
-            <h3 class="block is-size-4 has-text-centered">Mainly color palettes</h3>
+            <h1 className="is-size-2 has-text-centered">Colors</h1>
+            <h3 className="block is-size-4 has-text-centered">Mainly color palettes</h3>
             <hr />
             <div className="container MainContentList">
                 <ul className="columns is-vcentered">
