@@ -1,0 +1,241 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: #f5f5f5;
+}
+
+body {
+    /*    font-size: 62.5%;*/
+    font-family: 'Karla', 'Open Sans', sans-serif;
+    background-color: #f5f5f5;
+    color: #3A3A3A;
+    overflow-x: hidden;
+}
+
+a,
+a:visited,
+a:active {
+    color: #333;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.navbar {
+    background-color: #f5f5f5;
+    border: none;
+}
+
+/*
+.router-link-exact-active {
+        color: red !important;
+        border-bottom: 1px solid blue !important;
+    }
+    
+    .router-link-active {
+        color: red !important;
+        border-bottom: 1px solid blue !important;
+    }
+*/
+
+.active {
+    color: #3273dc !important;
+    border-bottom: 1px solid #3273dc !important;
+}
+
+
+.bannerTextContainer {
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.bannerText {
+    color: #333;
+    background-color: rgba(255, 147, 0, 0.5);
+    margin-left: .5rem;
+    padding: .2rem 1.5rem;
+}
+
+.back2 {
+    align-self: flex-start;
+    justify-content: center;
+    margin-left: 2rem;
+    font-size: 1rem;
+    padding-right: .2rem;
+    color: #333;
+
+}
+
+.back2:hover i {
+    padding-right: .5rem;
+    transition: all .2s;
+}
+
+.colorBand {
+    width: 100%;
+    height: 4px;
+    background: linear-gradient(270deg, #503873, #ff4d4d, #ffb21e, #ffd583, #7fc400, #0088cc, #73d2f6);
+    background-size: 1400% 1400%;
+
+    -webkit-animation: BGGradient 30s ease infinite;
+    -moz-animation: BGGradient 30s ease infinite;
+    animation: BGGradient 30s ease infinite;
+
+    z-index: 5;
+}
+
+@-webkit-keyframes BGGradient {
+    0% {
+        background-position: 0% 50%
+    }
+
+    50% {
+        background-position: 100% 50%
+    }
+
+    100% {
+        background-position: 0% 50%
+    }
+}
+
+@-moz-keyframes BGGradient {
+    0% {
+        background-position: 0% 50%
+    }
+
+    50% {
+        background-position: 100% 50%
+    }
+
+    100% {
+        background-position: 0% 50%
+    }
+}
+
+@keyframes BGGradient {
+    0% {
+        background-position: 0% 50%
+    }
+
+    50% {
+        background-position: 100% 50%
+    }
+
+    100% {
+        background-position: 0% 50%
+    }
+}
+
+.tabs {
+    background-color: #f5f5f5;
+    color: #3A3A3A;
+}
+
+/*
+.columns {
+    position: relative;
+}
+*/
+
+.box {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: all .2s !important;
+}
+
+.box:hover {
+    position: relative;
+
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+    transition: all .2s;
+}
+
+.box:active {
+    box-shadow: none;
+    transform: translateY(5px) !important;
+}
+
+.text-highlight {
+    color: black;
+    background-color: rgba(255, 147, 0, 0.5);
+    padding: 2px 4px;
+}
+
+.text-highlight:hover {
+    color: white;
+    background-color: rgba(41, 152, 255, 0.5);
+    transition: all .2s;
+}
+
+
+/* Sweep To Right */
+.hvr-sweep-to-right {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    position: relative;
+    -webkit-transition-property: color;
+    transition-property: color;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+}
+
+.hvr-sweep-to-right:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(41, 152, 255, 0.5);
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transform-origin: 0 50%;
+    transform-origin: 0 50%;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+}
+
+.hvr-sweep-to-right:hover,
+.hvr-sweep-to-right:focus,
+.hvr-sweep-to-right:active {
+    color: white;
+}
+
+.hvr-sweep-to-right:hover:before,
+.hvr-sweep-to-right:focus:before,
+.hvr-sweep-to-right:active:before {
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+}
+
+
+.router-link-active a,
+.router-link-exact-active a {
+    color: #3273dc;
+    border-bottom: 1px solid #3273dc;
+}
+
+
+@media only screen and (max-width: 950px) {
+    .tabs ul {
+        width: 100%;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .tabs li {
+        width: 50%
+    }
+}
