@@ -1,4 +1,5 @@
 import React from 'react';
+import NavBar from './NavBar';
 import ColorBar from './ColorBar';
 import JavascriptSec from './sections/JavascriptSec';
 import CssSec from './sections/CssSec';
@@ -8,19 +9,25 @@ import ImagesSec from './sections/ImagesSec';
 import HTMLSec from './sections/HTMLSec';
 import InspirationSec from './sections/InspirationSec';
 import AppFooter from './AppFooter';
+import { BrowserRouter, Route } from 'react-router-dom';
 
 function App() {
   return (
     <div>
-      <ColorBar />
-      {/* <JavascriptSec /> */}
-      {/* <ColorsSec /> */}
-      {/* <CssSec /> */}
-      {/* <BackgroundsSec /> */}
-      {/* <ImagesSec /> */}
-      {/* <HTMLSec /> */}
-      {/* <InspirationSec /> */}
-      <AppFooter />
+      <BrowserRouter>
+        <ColorBar />
+        <NavBar />
+        <Route exact path="/" component={ColorsSec} />
+        <Route path="/Colors" component={ColorsSec} />
+        <Route path="/Images" component={ImagesSec} />
+        <Route path="/Backgrounds" component={BackgroundsSec} />
+        <Route path="/CSS" component={CssSec} />
+        <Route path="/HTML" component={HTMLSec} />
+        <Route path="/Inspiration" component={InspirationSec} />
+        <Route path="/Javascript" component={JavascriptSec} />
+        {/* <Route path="/Articles" component={Artic} /> */}
+        <AppFooter />
+      </BrowserRouter>
     </div>
   );
 }

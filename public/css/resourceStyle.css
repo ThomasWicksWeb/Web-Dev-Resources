@@ -41,6 +41,10 @@ a:active {
     }
 */
 
+.active {
+    color: #3273dc !important;
+    border-bottom: 1px solid #3273dc !important;
+}
 
 
 .bannerTextContainer {

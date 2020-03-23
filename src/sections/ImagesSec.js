@@ -5,7 +5,7 @@ import './sections.css';
 const ImgList = ImagesList.map(item => {
     return(
         <li className="box">
-            <a href={ item.href } rel="noopener" target="_blank" className="has-text-left">
+            <a href={ item.href } rel="noopener noreferrer" target="_blank" className="has-text-left">
                 <img src={ item.img } alt={ item.alt } />
                 <h2 className="is-size-4">{ item.name }</h2>
                 <p className="is-size-6">{ item.desc }</p>
