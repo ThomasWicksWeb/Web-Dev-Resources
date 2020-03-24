@@ -10,7 +10,7 @@ html {
 
 body {
     /*    font-size: 62.5%;*/
-    font-family: 'Karla', 'Open Sans', sans-serif;
+    font-family: 'Karla', sans-serif;
     background-color: #f5f5f5;
     color: #3A3A3A;
     overflow-x: hidden;
@@ -28,18 +28,6 @@ a:active {
     background-color: #f5f5f5;
     border: none;
 }
-
-/*
-.router-link-exact-active {
-        color: red !important;
-        border-bottom: 1px solid blue !important;
-    }
-    
-    .router-link-active {
-        color: red !important;
-        border-bottom: 1px solid blue !important;
-    }
-*/
 
 .active {
     color: #3273dc !important;
@@ -89,6 +77,49 @@ a:active {
     z-index: 5;
 }
 
+.HomePageGridParent {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 30px;
+}
+
+.HomePageGridParent a {
+    padding: 3rem .5rem;
+    border-radius: 25px;
+}
+
+.HomePageGridParent a:nth-of-type(1) {
+    background-image: linear-gradient(to top right, #C25E85 , #E5717C, #FE8B70, #FFAD65, #FFD262);
+}
+
+.HomePageGridParent a:nth-of-type(2) {
+    background-image: linear-gradient(to bottom right, #59BDE7 ,#1ED1E6,#29E2D3, #6EEFB2, #6EEFB2);
+}
+
+.HomePageGridParent a:nth-of-type(3) {
+    background-image: radial-gradient(circle at center center, rgb(215, 105, 155),rgb(187, 82, 146),rgb(158, 59, 136),rgb(130, 35, 127),rgb(101, 12, 117));
+}
+
+.HomePageGridParent a:nth-of-type(4) {
+    background-image: linear-gradient(216deg, rgba(77, 77, 77,0.05) 0%, rgba(77, 77, 77,0.05) 25%,rgba(42, 42, 42,0.05) 25%, rgba(42, 42, 42,0.05) 38%,rgba(223, 223, 223,0.05) 38%, rgba(223, 223, 223,0.05) 75%,rgba(36, 36, 36,0.05) 75%, rgba(36, 36, 36,0.05) 100%),linear-gradient(44deg, rgba(128, 128, 128,0.05) 0%, rgba(128, 128, 128,0.05) 34%,rgba(212, 212, 212,0.05) 34%, rgba(212, 212, 212,0.05) 57%,rgba(25, 25, 25,0.05) 57%, rgba(25, 25, 25,0.05) 89%,rgba(135, 135, 135,0.05) 89%, rgba(135, 135, 135,0.05) 100%),linear-gradient(241deg, rgba(55, 55, 55,0.05) 0%, rgba(55, 55, 55,0.05) 14%,rgba(209, 209, 209,0.05) 14%, rgba(209, 209, 209,0.05) 60%,rgba(245, 245, 245,0.05) 60%, rgba(245, 245, 245,0.05) 69%,rgba(164, 164, 164,0.05) 69%, rgba(164, 164, 164,0.05) 100%),linear-gradient(249deg, rgba(248, 248, 248,0.05) 0%, rgba(248, 248, 248,0.05) 32%,rgba(148, 148, 148,0.05) 32%, rgba(148, 148, 148,0.05) 35%,rgba(202, 202, 202,0.05) 35%, rgba(202, 202, 202,0.05) 51%,rgba(181, 181, 181,0.05) 51%, rgba(181, 181, 181,0.05) 100%),linear-gradient(92deg, hsl(214,0%,11%),hsl(214,0%,11%));
+}
+
+.HomePageGridParent a:nth-of-type(5) {
+    background-image: linear-gradient(to bottom right, #4CC961, #00B27D, #00988B, #007D89, #006276);
+}
+
+.HomePageGridParent a:nth-of-type(6) {
+    background-image: radial-gradient(circle at center center, rgb(215, 105, 155),rgb(187, 82, 146),rgb(158, 59, 136),rgb(130, 35, 127),rgb(101, 12, 117));
+}
+
+.HomePageGridParent a:nth-of-type(7) {
+    background-image: radial-gradient(circle at center center, rgb(215, 105, 155),rgb(187, 82, 146),rgb(158, 59, 136),rgb(130, 35, 127),rgb(101, 12, 117));
+}
+
+.HomePageGridParent a:nth-of-type(8) {
+    background-image: radial-gradient(circle at center center, rgb(215, 105, 155),rgb(187, 82, 146),rgb(158, 59, 136),rgb(130, 35, 127),rgb(101, 12, 117));
+}
+
 @-webkit-keyframes BGGradient {
     0% {
         background-position: 0% 50%
@@ -134,6 +165,14 @@ a:active {
 .tabs {
     background-color: #f5f5f5;
     color: #3A3A3A;
+}
+
+.tabs ul {
+    margin-bottom: 0px;
+}
+
+.tabs:not(:last-child) {
+    margin-bottom: 0px;
 }
 
 /*
