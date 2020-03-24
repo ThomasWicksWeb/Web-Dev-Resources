@@ -17,7 +17,7 @@ const CssList = CssRes.map(item => {
 function CSS(){
     return(
         <div>
-            <h1 class="is-size-2 has-text-centered">CSS</h1>
+            <h1 className="is-size-2 has-text-centered">CSS</h1>
             <hr />
             <div className="container MainContentList">
                 <ul className="columns is-vcentered">

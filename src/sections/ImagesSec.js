@@ -17,8 +17,8 @@ const ImgList = ImagesList.map(item => {
 function ImagesSec(){
     return(
         <div>
-            <h1 class="is-size-2 has-text-centered">Images</h1>
-            <h3 class="block is-size-4 has-text-centered">Free images, editors, compressors, icons, and illustrations</h3>
+            <h1 className="is-size-2 has-text-centered">Images</h1>
+            <h3 className="block is-size-4 has-text-centered">Free images, editors, compressors, icons, and illustrations</h3>
             <hr />
             <div className="container MainContentList">
                 <ul className="columns is-vcentered">

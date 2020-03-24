@@ -17,8 +17,8 @@ const InspirationList = InspirationRes.map(item => {
 function InspirationSec(){
     return(
         <div>
-            <h1 class="is-size-2 has-text-centered">Inspiration</h1>
-            <h3 class="block is-size-4 has-text-centered">Design &amp; content inspiration</h3>
+            <h1 className="is-size-2 has-text-centered">Inspiration</h1>
+            <h3 className="block is-size-4 has-text-centered">Design &amp; content inspiration</h3>
             <hr />
             <div className="container MainContentList">
                 <ul className="columns is-vcentered">

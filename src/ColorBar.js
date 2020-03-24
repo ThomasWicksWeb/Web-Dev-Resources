@@ -2,7 +2,7 @@ import React from 'react'
 
 function ColorBar(){
     return(
-        <div class="colorBand">&nbsp;</div>
+        <div className="colorBand">&nbsp;</div>
     )
 }
 
