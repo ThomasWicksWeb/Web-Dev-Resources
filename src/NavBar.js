@@ -1,13 +1,23 @@
 import React from 'react';
+import {
+  FaPaintBrush,
+  FaImages,
+  FaImage,
+  FaCss3Alt,
+  FaHtml5,
+  FaLightbulb,
+  FaJsSquare,
+  FaBook,
+} from 'react-icons/fa';
 import { NavLink } from 'react-router-dom';
+
+import { Icon } from './components';
 
 function NavbarItem({ title, icon, to }) {
   return (
     <li className="tab-links">
       <NavLink to={to}>
-        <span className="icon is-small">
-          <i className={icon} aria-hidden="true"></i>
-        </span>
+        <Icon size="small" icon={icon} />
         <span>{title}</span>
       </NavLink>
     </li>
@@ -17,42 +27,42 @@ function NavbarItem({ title, icon, to }) {
 const items = [
   {
     title: 'Colors',
-    icon: 'fas fa-paint-brush',
+    icon: FaPaintBrush,
     to: '/colors',
   },
   {
     title: 'Images',
-    icon: 'fas fa-images',
+    icon: FaImages,
     to: '/images',
   },
   {
     title: 'Backgrounds',
-    icon: 'fas fa-image',
+    icon: FaImage,
     to: '/backgrounds',
   },
   {
     title: 'CSS',
-    icon: 'fab fa-css3-alt',
+    icon: FaCss3Alt,
     to: '/css',
   },
   {
     title: 'HTML',
-    icon: 'fab fa-html5',
+    icon: FaHtml5,
     to: '/html',
   },
   {
     title: 'Inspiration',
-    icon: 'far fa-lightbulb',
+    icon: FaLightbulb,
     to: '/inspiration',
   },
   {
     title: 'Javascript',
-    icon: 'fab fa-js-square',
+    icon: FaJsSquare,
     to: '/javascript',
   },
   {
     title: 'Articles',
-    icon: 'fas fa-book',
+    icon: FaBook,
     to: '/articles',
   },
 ];
