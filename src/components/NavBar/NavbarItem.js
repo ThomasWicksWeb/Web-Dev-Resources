@@ -2,10 +2,9 @@ import PropTypes from 'prop-types';
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 
-import { Icon } from './components';
-import * as ROUTES from './routes';
+import Icon from '../Icon';
 
-function NavbarItem({ title, icon, to }) {
+export default function NavbarItem({ title, icon, to }) {
   return (
     <li className="tab-links">
       <NavLink to={to}>
@@ -21,15 +20,3 @@ NavbarItem.propTypes = {
   icon: PropTypes.elementType.isRequired,
   to: PropTypes.string.isRequired,
 };
-
-export default function NavBar() {
-  return (
-    <div className="tabs is-centered">
-      <ul>
-        {Object.values(ROUTES).map(({ path: to, icon, title }) => (
-          <NavbarItem to={to} icon={icon} title={title} key={to} />
-        ))}
-      </ul>
-    </div>
-  );
-}

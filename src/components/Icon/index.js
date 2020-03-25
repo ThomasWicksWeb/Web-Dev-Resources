@@ -12,9 +12,7 @@ import React from 'react';
 export default function Icon({ icon: Icon, size }) {
   return (
     <span className={classnames('icon', size && `size-${size}`)}>
-      <i>
-        <Icon />
-      </i>
+      <Icon />
     </span>
   );
 }

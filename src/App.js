@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 import ColorBar from './ColorBar';
 import Footer from './Footer';
-import NavBar from './NavBar';
+import { NavBar } from './components';
 import Artical from './sections/ArticleSec';
 import Backgrounds from './sections/BackgroundSec';
 import Colors from './sections/ColorsSec';
