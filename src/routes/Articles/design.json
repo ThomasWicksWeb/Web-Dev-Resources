@@ -1,0 +1,14 @@
+[
+  {
+    "name": "'Everything I Know About Style Guides, Design Systems, and Component Libraries'",
+    "href": "https://leerob.io/blog/style-guides-component-libraries-design-systems/",
+    "img": "./images/articles-design-1-min.jpg",
+    "alt": "'Everything I Know About Style Guides, Design Systems, and Component Libraries'"
+  },
+  {
+    "name": "'Web Developer Portfolio: The Definitive 2019 Guide'",
+    "href": "https://blog.soshace.com/en/tips/web-developer-portfolio-the-definitive-2019-guide-with-15-portfolio-examples/",
+    "img": "./images/articles-portfolios-min.jpg",
+    "alt": "'Web Developer Portfolio: The Definitive 2019 Guide'"
+  }
+]
