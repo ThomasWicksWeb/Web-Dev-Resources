@@ -4,10 +4,10 @@ import { NavLink } from 'react-router-dom';
 
 import Icon from '../Icon';
 
-export default function NavbarItem({ title, icon, to }) {
+export default function NavbarItem({ title, icon, to, onMouseOver }) {
   return (
     <li className="tab-links">
-      <NavLink to={to}>
+      <NavLink to={to} onMouseOver={onMouseOver}>
         <Icon size="small" icon={icon} />
         <span>{title}</span>
       </NavLink>
@@ -19,4 +19,5 @@ NavbarItem.propTypes = {
   title: PropTypes.string.isRequired,
   icon: PropTypes.elementType.isRequired,
   to: PropTypes.string.isRequired,
+  onMouseOver: PropTypes.func.isRequired,
 };
