@@ -1,16 +1,17 @@
 import React from 'react';
-import NavBar from './NavBar';
-import ColorBar from './ColorBar';
-import JavascriptSec from './sections/JavascriptSec';
-import CssSec from './sections/CssSec';
-import ColorsSec from './sections/ColorsSec';
-import BackgroundsSec from './sections/BackgroundSec';
-import ImagesSec from './sections/ImagesSec';
-import HTMLSec from './sections/HTMLSec';
-import InspirationSec from './sections/InspirationSec';
-import ArticalSec from './sections/ArticleSec';
-import AppFooter from './AppFooter';
 import { BrowserRouter, Route } from 'react-router-dom';
+
+import ColorBar from './ColorBar';
+import Footer from './Footer';
+import NavBar from './NavBar';
+import ArticalSec from './sections/ArticleSec';
+import BackgroundsSec from './sections/BackgroundSec';
+import ColorsSec from './sections/ColorsSec';
+import CssSec from './sections/CssSec';
+import HTMLSec from './sections/HTMLSec';
+import ImagesSec from './sections/ImagesSec';
+import InspirationSec from './sections/InspirationSec';
+import JavascriptSec from './sections/JavascriptSec';
 
 function App() {
   return (
@@ -27,7 +28,7 @@ function App() {
         <Route path="/Inspiration" component={InspirationSec} />
         <Route path="/Javascript" component={JavascriptSec} />
         <Route path="/Articles" component={ArticalSec} />
-        <AppFooter />
+        <Footer />
       </BrowserRouter>
     </div>
   );
