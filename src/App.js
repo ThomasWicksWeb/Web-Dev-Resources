@@ -1,37 +1,37 @@
 import React from 'react';
-import { BrowserRouter, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 import ColorBar from './ColorBar';
 import Footer from './Footer';
 import NavBar from './NavBar';
-import ArticalSec from './sections/ArticleSec';
-import BackgroundsSec from './sections/BackgroundSec';
-import ColorsSec from './sections/ColorsSec';
-import CssSec from './sections/CssSec';
-import HTMLSec from './sections/HTMLSec';
-import ImagesSec from './sections/ImagesSec';
-import InspirationSec from './sections/InspirationSec';
-import JavascriptSec from './sections/JavascriptSec';
+import Artical from './sections/ArticleSec';
+import Backgrounds from './sections/BackgroundSec';
+import Colors from './sections/ColorsSec';
+import CSS from './sections/CssSec';
+import HTML from './sections/HTMLSec';
+import Images from './sections/ImagesSec';
+import Inspiration from './sections/InspirationSec';
+import Javascript from './sections/JavascriptSec';
 
-function App() {
+export default function App() {
   return (
     <div>
-      <BrowserRouter>
+      <Router>
         <ColorBar />
         <NavBar />
-        <Route exact path="/" component={ColorsSec} />
-        <Route path="/Colors" component={ColorsSec} />
-        <Route path="/Images" component={ImagesSec} />
-        <Route path="/Backgrounds" component={BackgroundsSec} />
-        <Route path="/CSS" component={CssSec} />
-        <Route path="/HTML" component={HTMLSec} />
-        <Route path="/Inspiration" component={InspirationSec} />
-        <Route path="/Javascript" component={JavascriptSec} />
-        <Route path="/Articles" component={ArticalSec} />
+        <Switch>
+          <Route exact path="/" component={Colors} />
+          <Route exact path="/colors" component={Colors} />
+          <Route exact path="/images" component={Images} />
+          <Route exact path="/backgrounds" component={Backgrounds} />
+          <Route exact path="/css" component={CSS} />
+          <Route exact path="/html" component={HTML} />
+          <Route exact path="/inspiration" component={Inspiration} />
+          <Route exact path="/javascript" component={Javascript} />
+          <Route exact path="/articles" component={Artical} />
+        </Switch>
         <Footer />
-      </BrowserRouter>
+      </Router>
     </div>
   );
 }
-
-export default App;
