@@ -13,7 +13,7 @@ import {
 export const COLORS = {
   title: 'Colors',
   icon: FaPaintBrush,
-  path: '/colors',
+  path: '/',
   component: loadable(() =>
     import(/* webpackChunkName: "colors" */ './Colors')
   ),
