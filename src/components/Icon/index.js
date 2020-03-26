@@ -9,9 +9,12 @@ import React from 'react';
  * size: 'small' | 'medium' | 'large';
  * }} props
  */
-export default function Icon({ icon: Icon, size }) {
+export default function Icon({ icon: Icon, size, className, ...rest }) {
   return (
-    <span className={classnames('icon', size && `size-${size}`)}>
+    <span
+      className={classnames('icon', className, size && `size-${size}`)}
+      {...rest}
+    >
       <Icon />
     </span>
   );

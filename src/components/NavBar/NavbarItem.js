@@ -3,12 +3,13 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 
 import Icon from '../Icon';
+import styles from './NavbarItem.module.scss';
 
 export default function NavbarItem({ title, icon, to, onMouseOver }) {
   return (
     <li className="tab-links">
       <NavLink to={to} onMouseOver={onMouseOver}>
-        <Icon size="small" icon={icon} />
+        <Icon size="small" icon={icon} className={styles.icon} />
         <span>{title}</span>
       </NavLink>
     </li>
