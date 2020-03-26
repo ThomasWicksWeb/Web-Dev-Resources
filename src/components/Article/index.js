@@ -9,12 +9,19 @@ export default function Article({ title, children }) {
     <article>
       {title && (
         <>
-          <h3 className="block is-size-4 has-text-centered">{title}</h3>
+          <h3
+            className="block is-size-4 has-text-centered"
+            data-testid="article-title"
+          >
+            {title}
+          </h3>
           <hr />
         </>
       )}
       <div className={classnames('container', styles.mainContentList)}>
-        <ul className="columns is-vcentered">{children}</ul>
+        <ul className="columns is-vcentered" data-testid="article-ul">
+          {children}
+        </ul>
       </div>
     </article>
   );
