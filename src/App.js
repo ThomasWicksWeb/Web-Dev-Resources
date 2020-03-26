@@ -14,7 +14,7 @@ export default function App() {
       <main>
         <Switch>
           {Object.values(ROUTES).map(({ component, path }) => (
-            <Route path={path} exact component={component} />
+            <Route path={path} exact component={component} key={path} />
           ))}
         </Switch>
       </main>
