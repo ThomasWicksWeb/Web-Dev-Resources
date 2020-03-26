@@ -11,18 +11,20 @@ export default function NavBar() {
   }
 
   return (
-    <div className="tabs is-centered">
-      <ul>
-        {Object.values(ROUTES).map(({ path: to, icon, title, component }) => (
-          <NavbarItem
-            to={to}
-            icon={icon}
-            title={title}
-            onMouseOver={preloadOnHover(component)}
-            key={to}
-          />
-        ))}
-      </ul>
-    </div>
+    <header>
+      <nav className="tabs is-centered">
+        <ul>
+          {Object.values(ROUTES).map(({ path: to, icon, title, component }) => (
+            <NavbarItem
+              to={to}
+              icon={icon}
+              title={title}
+              onMouseOver={preloadOnHover(component)}
+              key={to}
+            />
+          ))}
+        </ul>
+      </nav>
+    </header>
   );
 }
