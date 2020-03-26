@@ -17,7 +17,7 @@ const InspirationList = InspirationRes.map(item => {
 function InspirationSec(){
     return(
         <div>
-            <h1 class="is-size-2 has-text-centered">Inspiration</h1>
+            <h1 class="is-size-2 has-text-centered has-text-weight-bold">Inspiration</h1>
             <h3 class="block is-size-4 has-text-centered">Design &amp; content inspiration</h3>
             <hr />
             <div className="container MainContentList">

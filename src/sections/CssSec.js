@@ -14,10 +14,10 @@ const CssList = CssRes.map(item => {
     )
 })
 
-function CSS(){
+function CssSec(){
     return(
         <div>
-            <h1 class="is-size-2 has-text-centered">CSS</h1>
+            <h1 class="is-size-2 has-text-centered has-text-weight-bold">CSS</h1>
             <hr />
             <div className="container MainContentList">
                 <ul className="columns is-vcentered">
@@ -28,4 +28,4 @@ function CSS(){
     )
 }
 
-export default CSS;
+export default CssSec;

@@ -17,7 +17,7 @@ const BackgroundsList = BackgroundsRes.map(item => {
 function BackgroundsSec(){
     return(
         <div>
-            <h1 class="is-size-2 has-text-centered">Backgrounds</h1>
+            <h1 class="is-size-2 has-text-centered has-text-weight-bold">Backgrounds</h1>
             <hr />
             <div className="container MainContentList">
                 <ul className="columns is-vcentered">

@@ -17,7 +17,7 @@ const HTMLList = HTMLRes.map(item => {
 function HTMLSec(){
     return(
         <div>
-            <h1 class="is-size-2 has-text-centered">HTML</h1>
+            <h1 class="is-size-2 has-text-centered has-text-weight-bold">HTML</h1>
             <h3 class="block is-size-4 has-text-centered">(Stuff I wish I knew about sooner)</h3>
             <hr />
             <div className="container MainContentList">

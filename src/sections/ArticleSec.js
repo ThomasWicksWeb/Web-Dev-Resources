@@ -65,8 +65,8 @@ const ArticleSec = () => {
 
     return(
         <div>
-            <h1 className="is-size-2 has-text-centered">Articles</h1>
-            <h3 className="block is-size-4 has-text-centered">Javascript</h3>
+            <h1 className="is-size-2 has-text-centered has-text-weight-bold">Articles</h1>
+            <h3 className="block is-size-3 has-text-centered">Javascript</h3>
             <hr />
             <div className="container MainContentList">
                 <ul className="columns is-vcentered">
@@ -74,7 +74,7 @@ const ArticleSec = () => {
                 </ul>
             </div>
 
-            <h3 className="block is-size-4 has-text-centered">HTML &amp; CSS</h3>
+            <h3 className="block is-size-3 has-text-centered">HTML &amp; CSS</h3>
             <hr />
             <div className="container MainContentList">
                 <ul className="columns is-vcentered">
@@ -82,7 +82,7 @@ const ArticleSec = () => {
                 </ul>
             </div>
 
-            <h3 className="block is-size-4 has-text-centered">Design</h3>
+            <h3 className="block is-size-3 has-text-centered">Design</h3>
             <hr />
             <div className="container MainContentList">
                 <ul className="columns is-vcentered">
@@ -90,7 +90,7 @@ const ArticleSec = () => {
                 </ul>
             </div>
 
-            <h3 className="block is-size-4 has-text-centered">Jobs/Employment</h3>
+            <h3 className="block is-size-3 has-text-centered">Jobs/Employment</h3>
             <hr />
             <div className="container MainContentList">
                 <ul className="columns is-vcentered">
@@ -98,7 +98,7 @@ const ArticleSec = () => {
                 </ul>
             </div>
 
-            <h3 className="block is-size-4 has-text-centered">General Web Development</h3>
+            <h3 className="block is-size-3 has-text-centered">General Web Development</h3>
             <hr />
             <div className="container MainContentList">
                 <ul className="columns is-vcentered">

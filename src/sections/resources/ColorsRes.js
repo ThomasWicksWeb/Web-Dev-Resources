@@ -28,7 +28,7 @@ const colorsList = [{
     },
     {
         "name": "Color Claim",
-        "desc": "Color Claim was created in 2012 by Tobias van Schneider with the goal to collect &amp; combine unique colors for his future projects",
+        "desc": "Color Claim was created in 2012 by Tobias van Schneider with the goal to collect and combine unique colors for his future projects",
         "href": "https://www.vanschneider.com/colors",
         "img": "./images/colors-colorClaim-min.png",
         "alt": "Color Claim"

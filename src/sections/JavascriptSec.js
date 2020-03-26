@@ -17,7 +17,7 @@ const JavascriptList = JSRes.map(item => {
 function JavascriptSection(){
     return(
         <div>
-            <h1 className="is-size-2 has-text-centered">Javascript &amp; APIs</h1>
+            <h1 className="is-size-2 has-text-centered has-text-weight-bold">Javascript &amp; APIs</h1>
             <h3 className="block is-size-4 has-text-centered">JS libraries, API's, and JS articles about things I wish I knew sooner</h3>
             <hr />
             <div className="container MainContentList">
