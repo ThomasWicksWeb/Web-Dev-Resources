@@ -7,8 +7,12 @@ import styles from './Article.module.scss';
 export default function Article({ title, children }) {
   return (
     <article>
-      <h3 className="block is-size-4 has-text-centered">{title}</h3>
-      <hr />
+      {title && (
+        <>
+          <h3 className="block is-size-4 has-text-centered">{title}</h3>
+          <hr />
+        </>
+      )}
       <div className={classnames('container', styles.mainContentList)}>
         <ul className="columns is-vcentered">{children}</ul>
       </div>
@@ -17,6 +21,6 @@ export default function Article({ title, children }) {
 }
 
 Article.propTypes = {
-  title: PropTypes.string.isRequired,
+  title: PropTypes.string,
   children: PropTypes.node.isRequired,
 };
