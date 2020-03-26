@@ -1,36 +1,24 @@
 import React from 'react';
-import NavBar from './NavBar';
-import ColorBar from './ColorBar';
-import JavascriptSec from './sections/JavascriptSec';
-import CssSec from './sections/CssSec';
-import ColorsSec from './sections/ColorsSec';
-import BackgroundsSec from './sections/BackgroundSec';
-import ImagesSec from './sections/ImagesSec';
-import HTMLSec from './sections/HTMLSec';
-import InspirationSec from './sections/InspirationSec';
-import ArticalSec from './sections/ArticleSec';
-import AppFooter from './AppFooter';
-import { BrowserRouter, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
-function App() {
+import ColorBar from './ColorBar';
+import Footer from './Footer';
+import { NavBar } from './components';
+import * as ROUTES from './routes';
+
+export default function App() {
   return (
-    <div>
-      <BrowserRouter>
-        <ColorBar />
-        <NavBar />
-        <Route exact path="/" component={ColorsSec} />
-        <Route path="/Colors" component={ColorsSec} />
-        <Route path="/Images" component={ImagesSec} />
-        <Route path="/Backgrounds" component={BackgroundsSec} />
-        <Route path="/CSS" component={CssSec} />
-        <Route path="/HTML" component={HTMLSec} />
-        <Route path="/Inspiration" component={InspirationSec} />
-        <Route path="/Javascript" component={JavascriptSec} />
-        <Route path="/Articles" component={ArticalSec} />
-        <AppFooter />
-      </BrowserRouter>
-    </div>
+    <Router>
+      <ColorBar />
+      <NavBar />
+      <main>
+        <Switch>
+          {Object.values(ROUTES).map(({ component, path }) => (
+            <Route path={path} exact component={component} key={path} />
+          ))}
+        </Switch>
+      </main>
+      <Footer />
+    </Router>
   );
 }
-
-export default App;
