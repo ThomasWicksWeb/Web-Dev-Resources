@@ -8,7 +8,7 @@ import styles from './NavbarItem.module.scss';
 export default function NavbarItem({ title, icon, to, onMouseOver }) {
   return (
     <li className="tab-links">
-      <NavLink to={to} onMouseOver={onMouseOver}>
+      <NavLink to={to} exact activeClassName="active" onMouseOver={onMouseOver}>
         <Icon size="small" icon={icon} className={styles.icon} />
         <span>{title}</span>
       </NavLink>
