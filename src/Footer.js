@@ -37,8 +37,7 @@ function AppFooter() {
           ☕ if you'd like.{' '}
         </p>
         <p className="is-size-6">
-          If you would like to contribute to Web Dev Resources, you can check
-          out the{' '}
+          Want to contribute to Web Dev Resources? Check out the{' '}
           <ExternalLink
             href="https://github.com/ThomasWicksWeb/Web-Dev-Resources-React"
             className="is-size-6 hvr-sweep-to-right text-highlight has-text-weight-bold"
