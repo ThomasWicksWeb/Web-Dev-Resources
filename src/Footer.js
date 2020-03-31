@@ -10,7 +10,7 @@ function AppFooter() {
           <strong>Web Dev Resources</strong> by{' '}
           <ExternalLink
             href="https://thomaswicks.com/"
-            className="text-highlight hvr-sweep-to-right"
+            className="text-highlight hvr-sweep-to-right has-text-weight-bold"
           >
             Thomas Wicks,
           </ExternalLink>{' '}
@@ -21,7 +21,7 @@ function AppFooter() {
           If you notice any mistakes, please contact me on my main page{' '}
           <ExternalLink
             href="https://thomaswicks.com/#contactMe"
-            className="is-size-6 hvr-sweep-to-right text-highlight"
+            className="is-size-6 hvr-sweep-to-right text-highlight has-text-weight-bold"
           >
             here
           </ExternalLink>
@@ -30,11 +30,21 @@ function AppFooter() {
           If you would like to support this website, you can{' '}
           <ExternalLink
             href="https://www.buymeacoffee.com/thomaswicks"
-            className="is-size-6 hvr-sweep-to-right text-highlight"
+            className="is-size-6 hvr-sweep-to-right text-highlight has-text-weight-bold"
           >
             buy me a coffee
           </ExternalLink>{' '}
           ☕ if you'd like.{' '}
+        </p>
+        <p className="is-size-6">
+          If you would like to contribute to Web Dev Resources, you can check
+          out the{' '}
+          <ExternalLink
+            href="https://github.com/ThomasWicksWeb/Web-Dev-Resources-React"
+            className="is-size-6 hvr-sweep-to-right text-highlight has-text-weight-bold"
+          >
+            GitHub repository.
+          </ExternalLink>{' '}
         </p>
         <p className="is-size-6">
           Site last updated on <strong>March 23rd, 2020</strong>

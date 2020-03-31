@@ -10,7 +10,7 @@ export default function NavbarItem({ title, icon, to, onMouseOver }) {
     <li className="tab-links">
       <NavLink to={to} exact activeClassName="active" onMouseOver={onMouseOver}>
         <Icon size="small" icon={icon} className={styles.icon} />
-        <span>{title}</span>
+        <span class="has-text-weight-bold">{title}</span>
       </NavLink>
     </li>
   );
