@@ -1,5 +1,47 @@
 [
   {
+    "name": "Nova Smarthome",
+    "href": "https://nova-smarthome.ueno.co/",
+    "img": "./images/inspiration-nova-min.jpg",
+    "alt": "Nova Smarthome"
+  },
+  {
+    "name": "Bit AI",
+    "href": "https://bit.ai/",
+    "img": "./images/inspiration-bitai-min.jpg",
+    "alt": "Bit AI"
+  },
+  {
+    "name": "Iina",
+    "href": "https://iina.io/",
+    "img": "./images/inspiration-iina-min.jpg",
+    "alt": "Iina"
+  },
+  {
+    "name": "Iheanyi",
+    "href": "https://iheanyi.com/about/",
+    "img": "./images/inspiration-iheanyi-min.jpg",
+    "alt": "Iheanyi"
+  },
+  {
+    "name": "Bazaar Voice",
+    "href": "https://www.bazaarvoice.com/",
+    "img": "./images/inspiration-bazaarvoice-min.jpg",
+    "alt": "Bazaar Voice"
+  },
+  {
+    "name": "Notion",
+    "href": "https://www.notion.so/product",
+    "img": "./images/inspiration-notion-min.jpg",
+    "alt": "Notion"
+  },
+  {
+    "name": "Artze Quote Machine",
+    "href": "https://artze.xyz/#/quote-machine",
+    "img": "./images/inspiration-artze-min.jpg",
+    "alt": "Artze Quote Machine"
+  },
+  {
     "name": "Molamil",
     "href": "https://www.molamil.com",
     "img": "./images/insp-2-min.png",
