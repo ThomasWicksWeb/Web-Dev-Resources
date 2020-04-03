@@ -19,5 +19,12 @@
     "href": "http://www.heropatterns.com/",
     "img": "./images/backgrounds-heroPatterns-min.png",
     "alt": "Hero Patterns"
+  },
+  {
+    "name": "SVG Gradient Wave Generator",
+    "desc": "SVG Wave Generator",
+    "href": "https://www.outpan.com/app/9aaaf27303/svg-gradient-wave-generator",
+    "img": "./images/backgrounds-SVG-Gradient-wave-generator-min.jpg",
+    "alt": "SVG Wave Generator"
   }
 ]
