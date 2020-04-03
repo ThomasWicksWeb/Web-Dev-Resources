@@ -1,5 +1,19 @@
 [
   {
+    "name": "Common CSS Grid Template Areas",
+    "desc": "Discover common uses for CSS grid",
+    "href": "https://ishadeed.com/article/grid-area/",
+    "img": "./images/css-css-grid-template-areas-min.jpg",
+    "alt": "Learn CSS Positioning"
+  },
+  {
+    "name": "Learn CSS Positioning",
+    "desc": "Different ways to position elements in CSS",
+    "href": "https://ishadeed.com/article/learn-css-positioning/",
+    "img": "./images/css-learn-css-positioning-min.jpg",
+    "alt": "Learn CSS Positioning"
+  },
+  {
     "name": "Get Waves",
     "desc": "Waves!",
     "href": "https://getwaves.io/",
