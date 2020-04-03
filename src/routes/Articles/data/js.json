@@ -1,20 +1,14 @@
 [
   {
-    "name": "The Modern Javascript Tutorial",
-    "href": "http://javascript.info/",
-    "img": "./images/js-11-min.png",
-    "alt": "The Modern Javascript Tutorial"
-  },
-  {
     "name": "Push Notifications in JavaScript? Yes you can!",
     "href": "https://itnext.io/an-introduction-to-web-push-notifications-a701783917ce",
-    "img": "./images/articles-pushnotifications-min.jpg",
+    "img": "./images/articles/articles-pushnotifications-min.jpg",
     "alt": "Push Notifications in JavaScript? Yes you can!"
   },
   {
     "name": "You Might Not Need a Library",
     "href": "https://ymnnl.glaive.pro/",
-    "img": "./images/articles-youmightnotneedalibrary-min.jpg",
+    "img": "./images/articles/articles-youmightnotneedalibrary-min.jpg",
     "alt": "You Might Not Need a Library"
   }
 ]
