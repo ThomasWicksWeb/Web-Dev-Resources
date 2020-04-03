@@ -1,5 +1,19 @@
 [
   {
+    "name": "HTML DOM",
+    "desc": "How to do things with vanilla JS",
+    "href": "https://htmldom.dev/",
+    "img": "./images/javascript-HTMLDOM-min.jpg",
+    "alt": "HTML DOM"
+  },
+  {
+    "name": "Animated Hamburger Menu Icons",
+    "desc": "Made for React",
+    "href": "https://hamburger-react.netlify.com/",
+    "img": "./images/javascript-animated-hamburger-icons-min.jpg",
+    "alt": "Animated Hamburger Menu Icons"
+  },
+  {
     "name": "JS Tips",
     "desc": "Calc min/max value from an array - different methods",
     "href": "https://www.jstips.co/en/javascript/calculate-the-max-min-value-from-an-array/",
