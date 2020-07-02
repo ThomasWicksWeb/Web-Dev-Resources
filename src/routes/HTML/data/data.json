@@ -1,5 +1,12 @@
 [
   {
+    "name": "HTML Head",
+    "desc": "A free guide to HTML5 <head> elements",
+    "href": "https://htmlhead.dev/",
+    "img": "./images/html/html-head-min.jpg",
+    "alt": "HTML Head"
+  },
+  {
     "name": "Link tags",
     "desc": "Preload, prefetch and other link tags",
     "href": "https://3perf.com/blog/link-rels/",
