@@ -1,5 +1,23 @@
 [
   {
+    "name": "An in-depth beginner's guide to testing React applications",
+    "href": "https://jkettmann.com/beginners-guide-to-testing-react/",
+    "img": "./images/articles/articles-react-testing-min.jpg",
+    "alt": "A beginner's guide to testing React applications"
+  },
+  {
+    "name": "How to sort an array of objects by a property value in JavaScript",
+    "href": "https://flaviocopes.com/how-to-sort-array-of-objects-by-property-javascript/",
+    "img": "./images/articles/articles-sort-data-min.jpg",
+    "alt": "How .sort() works"
+  },
+  {
+    "name": "A (Mostly) Complete Guide to React Rendering Behavior",
+    "href": "https://blog.isquaredsoftware.com/2020/05/blogged-answers-a-mostly-complete-guide-to-react-rendering-behavior/",
+    "img": "./images/articles/articles-react-rendering-behavior-min.jpg",
+    "alt": "A beginners guide to React rendering behavior"
+  },
+  {
     "name": "Push Notifications in JavaScript? Yes you can!",
     "href": "https://itnext.io/an-introduction-to-web-push-notifications-a701783917ce",
     "img": "./images/articles/articles-pushnotifications-min.jpg",
