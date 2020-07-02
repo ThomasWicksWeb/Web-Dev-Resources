@@ -1,5 +1,11 @@
 [
   {
+    "name": "Hiding Elements on the Web",
+    "href": "https://ishadeed.com/article/hiding-web/",
+    "img": "./images/articles/articles-hiding-web-min.jpg",
+    "alt": "Hiding elements on the web"
+  },
+  {
     "name": "HTML is the Web",
     "href": "https://www.petelambert.com/journal/html-is-the-web",
     "img": "./images/articles/articles-html-1-min.jpg",
