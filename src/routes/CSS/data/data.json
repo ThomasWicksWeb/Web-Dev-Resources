@@ -1,5 +1,26 @@
 [
   {
+    "name": "CSS Separator Generator",
+    "desc": "Generate styled separators",
+    "href": "https://wweb.dev/resources/css-separator-generator",
+    "img": "./images/css/css-separator-generator-min.jpg",
+    "alt": "CSS Separator Generator"
+  },
+  {
+    "name": "Box Shadows",
+    "desc": "Create box shadows easily",
+    "href": "https://boxshadows.com/",
+    "img": "./images/css/css-box-shadows-min.jpg",
+    "alt": "Create box shadows easily"
+  },
+  {
+    "name": "Shape Divider",
+    "desc": "Create CSS dividers",
+    "href": "https://www.shapedivider.app/",
+    "img": "./images/css/css-shape-divider-min.jpg",
+    "alt": "Create CSS dividers"
+  },
+  {
     "name": "Common CSS Grid Template Areas",
     "desc": "Discover common uses for CSS grid",
     "href": "https://ishadeed.com/article/grid-area/",
