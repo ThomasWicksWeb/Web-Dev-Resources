@@ -1,5 +1,26 @@
 [
   {
+    "name": "React Hook Form",
+    "desc": "'Performant, flexible and extensible forms with easy-to-use validation'",
+    "href": "https://react-hook-form.com/",
+    "img": "./images/javascript/js-react-hook-forms-min.jpg",
+    "alt": "Performant, flexible and extensible forms with easy-to-use validation"
+  },
+  {
+    "name": "React Gooey",
+    "desc": "The gooey effect for React",
+    "href": "https://gooey-react.netlify.app/",
+    "img": "./images/javascript/js-gooey-react-min.jpg",
+    "alt": "The gooey effect for React"
+  },
+  {
+    "name": "JavaScript Utilities",
+    "desc": "JS utilities with a single line of code",
+    "href": "https://1loc.dev/",
+    "img": "./images/javascript/js-1loc-min.jpg",
+    "alt": "JS utilities with a single line of code"
+  },
+  {
     "name": "HTML DOM",
     "desc": "How to do things with vanilla JS",
     "href": "https://htmldom.dev/",
