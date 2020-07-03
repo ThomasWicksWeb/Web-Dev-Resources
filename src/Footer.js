@@ -14,7 +14,7 @@ function AppFooter() {
           >
             Thomas Wicks,
           </ExternalLink>{' '}
-          created to organize the resources I've accumulated over the last 1-2
+          created to organize the resources I've accumulated over the last 3
           years or so.
         </p>
         <p className="is-size-6">
@@ -46,7 +46,10 @@ function AppFooter() {
           </ExternalLink>{' '}
         </p>
         <p className="is-size-6">
-          Site last updated on <strong>July 3rd, 2020</strong>
+          Site last updated on{' '}
+          <strong>
+            July <sup>3rd</sup>, 2020
+          </strong>
         </p>
       </div>
     </footer>
