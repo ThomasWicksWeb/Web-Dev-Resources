@@ -46,7 +46,7 @@ function AppFooter() {
           </ExternalLink>{' '}
         </p>
         <p className="is-size-6">
-          Site last updated on <strong>July 2nd, 2020</strong>
+          Site last updated on <strong>July 3rd, 2020</strong>
         </p>
       </div>
     </footer>
