@@ -1,5 +1,47 @@
 [
   {
+    "name": "Valve Software",
+    "href": "https://www.valvesoftware.com/en/",
+    "img": "./images/inspiration/inspiration-valve-min.jpg",
+    "alt": "Valve Software"
+  },
+  {
+    "name": "Amruth Pillai's Portfolio",
+    "href": "https://amruthpillai.com/",
+    "img": "./images/inspiration/inspiration-amruthpilai-min.jpg",
+    "alt": "Amruth Pillai's Portfolio"
+  },
+  {
+    "name": "Pages - Hall of Fame",
+    "href": "https://www.pages.xyz/",
+    "img": "./images/inspiration/inspiration-pages-min.jpg",
+    "alt": "Pages - Hall of Fame"
+  },
+  {
+    "name": "Landing Folio",
+    "href": "https://www.landingfolio.com/",
+    "img": "./images/inspiration/inspiration-landingfolio-min.jpg",
+    "alt": "Landing Folio"
+  },
+  {
+    "name": "UI Design Daily",
+    "href": "https://uidesigndaily.com/",
+    "img": "./images/inspiration/inspiration-uidailydesign-min.jpg",
+    "alt": "UI Design Daily"
+  },
+  {
+    "name": "Shapeways",
+    "href": "hhttps://www.shapeways.com/",
+    "img": "./images/inspiration/inspiration-shapeways-min.jpg",
+    "alt": "Shapeways 3D Printing"
+  },
+  {
+    "name": "Treact",
+    "href": "https://treact.owaiskhan.me/",
+    "img": "./images/inspiration/inspiration-treact-min.jpg",
+    "alt": "Free Modern React Templates for every need"
+  },
+  {
     "name": "Nova Smarthome",
     "href": "https://nova-smarthome.ueno.co/",
     "img": "./images/inspiration/inspiration-nova-min.jpg",
