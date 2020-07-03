@@ -48,7 +48,7 @@ function AppFooter() {
         <p className="is-size-6">
           Site last updated on{' '}
           <strong>
-            July <sup>3rd</sup>, 2020
+            July<sup>3rd</sup>, 2020
           </strong>
         </p>
       </div>
