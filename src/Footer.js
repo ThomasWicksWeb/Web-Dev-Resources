@@ -18,9 +18,9 @@ function AppFooter() {
           years or so.
         </p>
         <p className="is-size-6">
-          If you notice any mistakes, please contact me on my main page{' '}
+          If you notice any mistakes, please report a bug on my main page{' '}
           <ExternalLink
-            href="https://thomaswicks.com/#contactMe"
+            href="https://thomaswicks.com/report"
             className="is-size-6 hvr-sweep-to-right text-highlight has-text-weight-bold"
           >
             here
