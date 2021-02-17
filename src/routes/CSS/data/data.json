@@ -65,7 +65,7 @@
   {
     "name": "CSS FX",
     "desc": "Great CSS button hover effects and loaders",
-    "href": "https://cssfx.dev/",
+    "href": "https://cssfx.netlify.app/",
     "img": "./images/css/css-cssFix-min.jpg",
     "alt": "Great CSS button hover effects and loaders"
   },
