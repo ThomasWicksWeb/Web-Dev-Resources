@@ -1,5 +1,12 @@
 [
   {
+    "name": "Easy Easings",
+    "desc": "Create easings with keyframes animations that can't be done with cubic-bezier",
+    "href": "https://easyeasings.com/",
+    "img": "./images/css/css-easy-easings-min.jpg",
+    "alt": "Easy Easings CSS keyframes animation generator"
+  },
+  {
     "name": "CSS Separator Generator",
     "desc": "Generate styled separators",
     "href": "https://wweb.dev/resources/css-separator-generator",
