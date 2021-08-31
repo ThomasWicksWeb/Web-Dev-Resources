@@ -1,6 +1,6 @@
 ## Web Dev Resources
 
-Web Dev Resources (WebDevResources.info) was created was created to consolidate the wide collection of resources that I have accumulated, resources which might be useful to a web developer, and organize them all into their categories to easily filter through. As of April 2020, Web Dev Resources has had over 11,000 visits 
+Web Dev Resources (WebDevResources.info) was created to consolidate the wide collection of resources that I have accumulated, resources which might be useful to a web developer, and organize them all into their categories to easily filter through. As of April 2020, Web Dev Resources has had over 11,000 visits 
 
 
 -------------------------------------------------------
