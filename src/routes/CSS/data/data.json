@@ -152,5 +152,12 @@
     "href": "https://css-tricks.com/snippets/css/a-guide-to-flexbox/",
     "img": "./images/css/css-tricks-flexbox-min.jpg",
     "alt": "CSS-Tricks Flexbox Guide"
+  },
+  {
+    "name": "Flowbite",
+    "desc": "Open-source UI component library for Tailwind CSS",
+    "href": "https://flowbite.com/docs/getting-started/introduction/",
+    "img": "./images/css/css-flowbite-min.jpg",
+    "alt": "Flowbite - Tailwind CSS Component Library"
   }
 ]
